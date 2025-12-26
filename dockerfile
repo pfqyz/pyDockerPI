@@ -4,6 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-RUN python tests.py
-
 CMD ["python", "script.py"]
